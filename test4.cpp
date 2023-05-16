@@ -24,10 +24,10 @@ class MyClass
 
 int main()
 {
-    // for (int i = 0; i < 5; i++)
-    // {
-    //     test_static();
-    // }
+    for (int i = 0; i < 5; i++)
+    {
+        test_static();
+    }
     MyClass::print();
 
     return 0;
